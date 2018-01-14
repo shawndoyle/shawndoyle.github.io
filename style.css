@@ -1,0 +1,31 @@
+body {
+	background: url(images/patrick-tomasso-71909.jpg) pink;
+	background-size: 200%;
+	background-position: center;
+	padding: 0;
+}
+
+.intro {
+	margin: 15rem 0 0 0;
+	text-align: center;
+	background-color: rgba(250,0,0,0.7);
+	padding: 20px;
+}
+
+h2, h3 {
+	font-family: Arial, sans-serif;
+	font-style: italic;
+}
+
+h1 {
+	font-family: serif;
+	font-size: 7rem;
+	color: gold;
+}
+
+#btn-register {
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+}
