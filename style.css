@@ -54,3 +54,8 @@ h1{
 	max-width: 80%;
 	height: auto;
 }
+
+.post h6 {
+	text-align: right;
+	font-style: italic;
+}
