@@ -1,6 +1,7 @@
 #social-media-links {
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
 #social-media-links img {

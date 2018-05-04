@@ -12,6 +12,18 @@
 	transition: all 0.5s ease;
 }
 
+@media only screen and (max-width: 750px) {
+	#skillBox img {
+		width: 0;
+		height: 0;
+		padding: 0;
+	}
+
+	#skillDisplay {
+		font-size: 0;
+	}
+}
+
 #skillBox img:hover {
 	transform: scale(1.3);
 }
