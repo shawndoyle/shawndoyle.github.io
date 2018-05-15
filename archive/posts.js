@@ -9,7 +9,7 @@ const posts = [
 	},
 	{
 		type: 'image',
-		image: '/static/circuit.png',
+		image: '/static/smartBrainLogo.png',
 		alt: 'Smart Brain Logo',
 		caption: "I hope this logo looks 'techy-cool' enough",
 	},
