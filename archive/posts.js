@@ -16,7 +16,7 @@ const posts = [
 	},
 	{
 		type: 'text',
-		text: 'My goal for this project was to learn about and implement a variety of comparison sorting algorithms.  To do this properly, I applied the CS theory I learned from the <a href="#" target="_blank">Harvard CS50 Course</a> and many hours reading Wikipedia articles on sorting algorithms.  I chose six sorting algorithms for the app:  3 slower algorithms, but easy to understand; and 3 more complicated recursive algorithms, which are much quicker.'
+		text: 'My goal for this project was to learn about and implement a variety of comparison sorting algorithms.  To do this properly, I applied the CS theory I learned from the <a href="https://www.youtube.com/watch?v=jUyQqLvg8Qw&list=PLhQjrBD2T382VRUw5ZpSxQSFrxMOdFObl&index=5" target="_blank">Harvard CS50 Course</a> and many hours reading Wikipedia articles on sorting algorithms.  I chose six sorting algorithms for the app:  3 slower algorithms, but easy to understand; and 3 more complicated recursive algorithms, which are much quicker.'
 	},
 	{
 		type: 'text',
