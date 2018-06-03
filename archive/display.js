@@ -22,16 +22,20 @@ function createPost(postData) {
 			contentItem = document.createElement('p');
 			contentItem.innerHTML = item.text;
 		} else if(item.type === 'image') {
-			console.log("Image");
 			contentItem = document.createElement('div');
 			contentItem.classList.add('post-img');
 
 			contentItem.appendChild(document.createElement('img'));
 			contentItem.firstElementChild.setAttribute('src', item.image);
 			contentItem.firstElementChild.setAttribute('alt', item.alt);
-
-			contentItem.appendChild(document.createElement('p'));
-			contentItem.lastElementChild.innerText = item.caption;
+			if(item.width) {
+				contentItem.firstElementChild.setAttribute('width', item.width);
+				contentItem.firstElementChild.setAttribute('height', 'auto');
+			}
+			if(item.caption) {
+				contentItem.appendChild(document.createElement('p'));
+				contentItem.lastElementChild.innerHTML = item.caption;
+			}
 		}
 		post.appendChild(contentItem);
 	});
